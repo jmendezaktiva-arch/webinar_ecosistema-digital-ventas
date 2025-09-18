@@ -394,3 +394,23 @@
   width: 100%; /* La imagen ocupa todo el ancho de su columna */
   border-radius: 8px;
 }
+
+/* --- LOGO FIJO EN ESQUINA SUPERIOR IZQUIERDA CON TRANSPARENCIA --- */
+.reveal .slides {
+  position: relative; /* Asegura que el logo se posicione correctamente dentro del contenedor de diapositivas */
+}
+
+.company-logo {
+  position: absolute;       /* Posicionamiento absoluto respecto a .reveal .slides */
+  top: 20px;                /* Distancia desde la parte superior */
+  left: 20px;               /* Distancia desde la izquierda */
+  z-index: 101;             /* Asegura que esté por encima de casi todo */
+  width: 80px;              /* Ajusta el tamaño de tu logo si es necesario */
+  height: auto;             /* Mantiene la proporción */
+  opacity: 0.7;             /* 70% de opacidad para la transparencia */
+}
+
+/* Opcional: Ocultar el logo en la primera diapositiva si no lo quieres en la portada */
+.reveal .slides section:first-child .company-logo {
+  display: none;
+}
