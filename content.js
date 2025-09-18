@@ -27,7 +27,7 @@ const slideContent = [
                 <li><strong>Plan de acción exacto</strong>.</li>
                 <li>Implementación <strong>esta semana</strong>.</li>
               </ul>`,
-    image: 'https://placehold.co/600x400/EEEEEE/000000?text=Imagen+de+Promesa'
+    image: 'assets/images/slide-3.png'
   },
 
   // Diapositiva 4: El Problema Real
@@ -36,7 +36,7 @@ const slideContent = [
     title: 'El Verdadero Problema',
     content: `<p>El problema NO es tu marketing.</p>
               <p>Es volar un avión <strong>sin motores</strong>.</p>`,
-    image: 'https://placehold.co/1000x500/EEEEEE/000000?text=Avión+sin+Motores'
+    image: 'assets/images/slide-4.png'
   },
 
   // Diapositiva 5: La Solución
@@ -46,7 +46,7 @@ const slideContent = [
     content: `<p>Caso "Carlos": <strong>Leads x3</strong>.</p>
               <p>El Secreto: <strong>Sistema, no improvisación</strong>.</p>
               <p>Método Ágil.</p>`,
-    image: 'https://placehold.co/600x400/EEEEEE/000000?text=Sistema+de+Engranajes'
+    image: 'assets/images/slide-5.png'
   },
   
   // Diapositiva 6: Motor #1
@@ -55,7 +55,7 @@ const slideContent = [
     title: 'Motor #1: EL COMBUSTIBLE ⛽',
     content: `<p>Síntoma #1 sin combustible:</p>
               <p>Pagar marketing <strong>"cruzando los dedos"</strong>.</p>`,
-    image: 'https://placehold.co/800x400/EEEEEE/000000?text=Medidor+de+Combustible'
+    image: 'assets/images/slide-6.png'
   },
 
   // Diapositiva 7: Cita
@@ -85,7 +85,7 @@ const slideContent = [
     title: 'Motor #2: EL MAPA 🗺️',
     content: `<p>Pregunta Clave: ¿Dónde invertir?</p>
               <p>Nuevo Enfoque: <strong>"Ecosistema de Ventas Digitales"</strong>.</p>`,
-    image: 'https://placehold.co/800x400/EEEEEE/000000?text=Mapa+Estratégico'
+    image: 'assets/images/slide-9.png'
   },
 
   // Diapositiva 10: Tu Mapa Estratégico
@@ -93,7 +93,7 @@ const slideContent = [
     layout: 'layout-default',
     title: 'Tu Mapa Estratégico',
     content: `<p>6 categorías con propósito, retorno e inversión diferentes.</p>`,
-    image: 'https://placehold.co/1000x500/EEEEEE/000000?text=Infografía+de+6+Canales'
+    image: 'assets/images/slide-10.png'
   },
   
   // Diapositiva 11: El Filtro de Decisión
@@ -102,7 +102,7 @@ const slideContent = [
     title: 'El Filtro de Decisión',
     content: `<p>Elección por método, no por intuición.</p>
               <h3>3 Filtros Clave</h3>`,
-    image: 'https://placehold.co/800x450/EEEEEE/000000?text=Embudo+de+Decisión+(3+Filtros)'
+    image: 'assets/images/slide-11.png'
   },
   
   // Diapositiva 12: La Regla de Oro
@@ -121,7 +121,7 @@ const slideContent = [
     content: `<p>¿Quién pilota el día a día?</p>
               <p>De "Empleados" a <strong>"Dueños"</strong>.</p>
               <p>De "Tareas" a <strong>"Ownership"</strong>.</p>`,
-    image: 'https://placehold.co/800x400/EEEEEE/000000?text=Cabina+de+Piloto'
+    image: 'assets/images/slide-13.png'
   },
   
   // Diapositiva 14: ¿Empleados o Dueños?
@@ -131,7 +131,7 @@ const slideContent = [
     content: `<div><h3>El de la Tarea:</h3><p>"Ya publiqué."</p></div>
               <hr>
               <div><h3>El Dueño del Resultado:</h3><p>"Publiqué, generé 5 preguntas y agendé 2 llamadas."</p></div>`,
-    image: 'https://placehold.co/600x400/EEEEEE/000000?text=Tarea+vs+Resultado'
+    image: 'assets/images/slide-14.png'
   },
 
   // Diapositiva 15: El Sistema Completo
@@ -140,7 +140,7 @@ const slideContent = [
     title: 'El Sistema Completo en Acción',
     content: `<p><strong>Combustible + Mapa + Piloto</strong></p>
               <p>Si falta uno, el sistema se cae.</p>`,
-    image: 'https://placehold.co/900x450/EEEEEE/000000?text=Combustible+→+Mapa+→+Piloto'
+    image: 'assets/images/slide-15.png'
   },
   
   // Diapositiva 16: El "CÓMO"
@@ -148,7 +148,7 @@ const slideContent = [
     layout: 'layout-center-focus',
     title: 'El "CÓMO"',
     content: `<h2>Escribe <strong style="color: var(--accent-color)">"SISTEMA"</strong> en el chat para obtener las herramientas.</h2>`,
-    image: 'https://placehold.co/700x400/EEEEEE/000000?text=Caja+de+Herramientas'
+    image: 'assets/images/slide-16.png'
   },
 
   // Diapositiva 17: Taller Intensivo
@@ -156,7 +156,7 @@ const slideContent = [
     layout: 'layout-split',
     title: 'Taller Intensivo: Consolidación 360',
     content: `<p>No es un curso, es un <strong>taller de construcción</strong>.</p>`,
-    image: 'https://placehold.co/600x400/EEEEEE/000000?text=Taller+de+Construcción'
+    image: 'assets/images/slide-17.png'
   },
 
   // Diapositiva 18: El Plan de Construcción
@@ -197,7 +197,7 @@ const slideContent = [
     title: 'Tu Decisión',
     content: `<h3>Adivinar vs. <strong>Construir un Sistema</strong>.</h3>
               <p style="font-size: 1.8em; font-weight: bold; color: var(--accent-color); margin-top: 40px;">www.dominatunegocio.com</p>`,
-    image: 'https://placehold.co/1000x400/EEEEEE/000000?text=Bifurcación'
+    image: 'assets/images/slide-20.png'
   },
 
   // Diapositiva 21: Q&A
