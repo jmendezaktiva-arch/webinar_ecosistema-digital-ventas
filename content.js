@@ -1,13 +1,12 @@
-// Archivo de Contenido para el Webinar: Ecosistema Digital Rentable
+// Archivo de Contenido para el Webinar: Ecosistema Digital Rentable (Versión Palabras Clave)
 
 const slideContent = [
   // Diapositiva 1: Portada
   {
     layout: 'layout-center-focus',
     title: 'Ecosistema Digital Rentable',
-    content: '<h3>Descubre los 3 motores para atraer clientes de forma predecible.</h3>',
-    // RECOMENDACIÓN: Reemplaza esta imagen por una de portada para tu webinar.
-    image: 'https://placehold.co/1280x720/005A9C/FFFFFF?text=Ecosistema+Digital+Rentable',
+    content: '<h3>3 Motores para Atraer Clientes</h3>',
+    image: 'assets/images/slide-1.png',
     background: '#FFFFFF'
   },
 
@@ -15,17 +14,19 @@ const slideContent = [
   {
     layout: 'layout-default',
     title: '¿Estás aquí?',
-    content: `<h2><i class="fas fa-keyboard" style="color: var(--primary-color);"></i> Cuéntame en el chat:</h2>
-              <p style="font-size: 1.5em; margin-top: 40px;">¿Cuál es tu mayor <strong>frustración</strong> con el marketing digital AHORA MISMO?</p>`,
+    content: `<h2><i class="fas fa-keyboard" style="color: var(--primary-color);"></i> Chat:</h2>
+              <p style="font-size: 1.5em; margin-top: 40px;">Tu Mayor <strong>Frustración</strong> con Marketing Digital</p>`,
   },
 
   // Diapositiva 3: La Promesa
   {
     layout: 'layout-split',
     title: 'Mi Promesa para Ti',
-    content: `<p>En menos de una hora, no solo vas a saber cuáles son los <strong>3 motores</strong> para atraer de manera predecible más clientes...</p>
-              <p>...sino que saldrás de aquí con el <strong>plan de acción exacto</strong> para empezar a construirlos ESTA MISMA SEMANA.</p>`,
-    // RECOMENDACIÓN: Usa una imagen de una brújula, una llave o un mapa.
+    content: `<ul>
+                <li><strong>3 Motores</strong> para atraer clientes.</li>
+                <li><strong>Plan de acción exacto</strong>.</li>
+                <li>Implementación <strong>esta semana</strong>.</li>
+              </ul>`,
     image: 'https://placehold.co/600x400/EEEEEE/000000?text=Imagen+de+Promesa'
   },
 
@@ -33,9 +34,8 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'El Verdadero Problema',
-    content: `<p>¿Y si te dijera que el problema NO está en tu marketing?</p>
-              <p>Puedes tener el mejor anuncio o la mejor web... pero si intentas volar un avión sin los motores correctos, jamás va a despegar.</p>`,
-    // RECOMENDACIÓN: Usa una imagen potente de un avión sin motores.
+    content: `<p>El problema NO es tu marketing.</p>
+              <p>Es volar un avión <strong>sin motores</strong>.</p>`,
     image: 'https://placehold.co/1000x500/EEEEEE/000000?text=Avión+sin+Motores'
   },
 
@@ -43,9 +43,9 @@ const slideContent = [
   {
     layout: 'layout-split',
     title: 'La Solución: El Sistema de 3 Motores',
-    content: `<p>Hablamos de mi cliente "Carlos"... <strong>triplicamos sus leads</strong>.</p>
-              <p>¿El secreto? No fue un anuncio mágico. Fue que dejamos de improvisar y nos dedicamos a instalar, con un método ágil, los motores que le permitieron encontrar y hacer vínculo con su público objetivo.</p>`,
-    // RECOMENDACIÓN: Usa una imagen de engranajes funcionando en armonía.
+    content: `<p>Caso "Carlos": <strong>Leads x3</strong>.</p>
+              <p>El Secreto: <strong>Sistema, no improvisación</strong>.</p>
+              <p>Método Ágil.</p>`,
     image: 'https://placehold.co/600x400/EEEEEE/000000?text=Sistema+de+Engranajes'
   },
   
@@ -53,16 +53,15 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'Motor #1: EL COMBUSTIBLE ⛽',
-    content: `<p>¿Alguna vez has pagado una campaña de marketing cruzando los dedos y rezando para que funcione?</p>
-              <p>Ese sentimiento es el síntoma N°1 de operar sin combustible.</p>`,
-    // RECOMENDACIÓN: Usa un ícono grande de un medidor de combustible.
+    content: `<p>Síntoma #1 sin combustible:</p>
+              <p>Pagar marketing <strong>"cruzando los dedos"</strong>.</p>`,
     image: 'https://placehold.co/800x400/EEEEEE/000000?text=Medidor+de+Combustible'
   },
 
   // Diapositiva 7: Cita
   {
     layout: 'layout-center-focus',
-    title: '', // Sin título para centrar la atención en la cita
+    title: '',
     content: `<blockquote>"La utilidad es una opinión, el flujo de caja es un hecho."</blockquote>`,
     background: '#F4F4F4'
   },
@@ -72,7 +71,7 @@ const slideContent = [
     layout: 'layout-default',
     title: 'Calcula tu Combustible HOY',
     content: `<div class="icon-grid" style="margin-top: 50px;">
-                <div class="icon-item"><i class="fas fa-bank fa-3x"></i><p>Dinero en Banco (Mes)</p></div>
+                <div class="icon-item"><i class="fas fa-bank fa-3x"></i><p>Ingresos Reales</p></div>
                 <div class="connector" style="font-size: 3em;">-</div>
                 <div class="icon-item"><i class="fas fa-file-invoice-dollar fa-3x"></i><p>Gastos Fijos</p></div>
                 <div class="connector" style="font-size: 3em;">=</div>
@@ -84,9 +83,8 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'Motor #2: EL MAPA 🗺️',
-    content: `<p>Ya tenemos combustible. Ahora, ¿cuál es el mejor canal para invertirlo?</p>
-              <p>Dejen de pensar en "canales" y empiecen a pensar en un <strong>"Ecosistema de Ventas Digitales"</strong>.</p>`,
-    // RECOMENDACIÓN: Usa un ícono grande de un mapa estratégico.
+    content: `<p>Pregunta Clave: ¿Dónde invertir?</p>
+              <p>Nuevo Enfoque: <strong>"Ecosistema de Ventas Digitales"</strong>.</p>`,
     image: 'https://placehold.co/800x400/EEEEEE/000000?text=Mapa+Estratégico'
   },
 
@@ -94,8 +92,7 @@ const slideContent = [
   {
     layout: 'layout-default',
     title: 'Tu Mapa Estratégico',
-    content: `<p>Hay 6 categorías, cada una con un propósito, tiempo de retorno e inversión MUY diferentes.</p>`,
-    // RECOMENDACIÓN: Reemplaza esto con una infografía real de los 6 canales.
+    content: `<p>6 categorías con propósito, retorno e inversión diferentes.</p>`,
     image: 'https://placehold.co/1000x500/EEEEEE/000000?text=Infografía+de+6+Canales'
   },
   
@@ -103,8 +100,8 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'El Filtro de Decisión',
-    content: `<p>No elijan por intuición, usen un método de 3 filtros:</p>`,
-    // RECOMENDACIÓN: Reemplaza esto por una infografía de un embudo.
+    content: `<p>Elección por método, no por intuición.</p>
+              <h3>3 Filtros Clave</h3>`,
     image: 'https://placehold.co/800x450/EEEEEE/000000?text=Embudo+de+Decisión+(3+Filtros)'
   },
   
@@ -113,17 +110,17 @@ const slideContent = [
     layout: 'layout-default',
     title: 'La Regla de Oro',
     content: `<div style="font-size: 8em; font-weight: bold; color: var(--primary-color);">2</div>
-              <h2>¡ELIJAN MÁXIMO 2 CANALES!</h2>
-              <p>Luego, vístanlos con el "Set Inicial de 5 Contenidos Fundacionales".</p>`
+              <h2>MÁXIMO 2 CANALES</h2>
+              <p>+ Set de 5 Contenidos Fundacionales</p>`
   },
 
   // Diapositiva 13: Motor #3
   {
     layout: 'layout-center-focus',
     title: 'Motor #3: EL PILOTO 👨‍✈️',
-    content: `<p>Ya tenemos el dinero y un plan enfocado. Pero, ¿quién va a pilotar esto día a día?</p>
-              <p>Necesitas pasar de "empleados" a <strong>"dueños"</strong>. De una "Lista de Tareas" a una cultura de <strong>"Ownership"</strong>.</p>`,
-    // RECOMENDACIÓN: Usa una imagen de la cabina de un avión.
+    content: `<p>¿Quién pilota el día a día?</p>
+              <p>De "Empleados" a <strong>"Dueños"</strong>.</p>
+              <p>De "Tareas" a <strong>"Ownership"</strong>.</p>`,
     image: 'https://placehold.co/800x400/EEEEEE/000000?text=Cabina+de+Piloto'
   },
   
@@ -131,11 +128,9 @@ const slideContent = [
   {
     layout: 'layout-split',
     title: '¿Empleados o Dueños?',
-    content: `<div><h3>El de la Tarea:</h3><p>"Jefe, ya publiqué el post."</p></div>
+    content: `<div><h3>El de la Tarea:</h3><p>"Ya publiqué."</p></div>
               <hr>
-              <div><h3>El Dueño del Resultado:</h3><p>"Jefe, publiqué el post, generó 5 preguntas... agendé dos llamadas de venta."</p></div>
-              <h3>¿Ves la diferencia?</h3>`,
-    // RECOMENDACIÓN: Usa una imagen que compare una checklist vs un gráfico de resultados.
+              <div><h3>El Dueño del Resultado:</h3><p>"Publiqué, generé 5 preguntas y agendé 2 llamadas."</p></div>`,
     image: 'https://placehold.co/600x400/EEEEEE/000000?text=Tarea+vs+Resultado'
   },
 
@@ -143,8 +138,8 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'El Sistema Completo en Acción',
-    content: `<p>Es un sistema. Necesitas <strong>El Combustible</strong>, <strong>El Mapa</strong> y <strong>El Piloto</strong>. Si te falta uno, el sistema se cae.</p>`,
-    // RECOMENDACIÓN: Usa una infografía que conecte los 3 motores.
+    content: `<p><strong>Combustible + Mapa + Piloto</strong></p>
+              <p>Si falta uno, el sistema se cae.</p>`,
     image: 'https://placehold.co/900x450/EEEEEE/000000?text=Combustible+→+Mapa+→+Piloto'
   },
   
@@ -152,8 +147,7 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'El "CÓMO"',
-    content: `<h2>Pongan <strong style="color: var(--accent-color)">"SISTEMA"</strong> en el chat si quieren que les entregue las herramientas completas...</h2>`,
-    // RECOMENDACIÓN: Usa una imagen de una caja de herramientas o un cofre del tesoro.
+    content: `<h2>Escribe <strong style="color: var(--accent-color)">"SISTEMA"</strong> en el chat para obtener las herramientas.</h2>`,
     image: 'https://placehold.co/700x400/EEEEEE/000000?text=Caja+de+Herramientas'
   },
 
@@ -161,8 +155,7 @@ const slideContent = [
   {
     layout: 'layout-split',
     title: 'Taller Intensivo: Consolidación 360',
-    content: `<p>Hemos creado un programa Intensivo. No es un curso para escuchar, es un <strong>taller de construcción</strong>... para construir en tu negocio.</p>`,
-    // RECOMENDACIÓN: Usa una foto de un equipo colaborando en una pizarra.
+    content: `<p>No es un curso, es un <strong>taller de construcción</strong>.</p>`,
     image: 'https://placehold.co/600x400/EEEEEE/000000?text=Taller+de+Construcción'
   },
 
@@ -172,16 +165,16 @@ const slideContent = [
     title: 'El Plan de Construcción',
     content: `<div class="columns-wrapper">
                 <div class="column">
-                  <h3><i class="fas fa-user-tie"></i> Sesión A: El Piloto</h3>
-                  <p>Te doy mi método para crear un equipo con ownership.</p>
+                  <h3><i class="fas fa-user-tie"></i> A: El Piloto</h3>
+                  <p>Método de Ownership.</p>
                 </div>
                 <div class="column">
-                  <h3><i class="fas fa-map-signs"></i> Sesión B: El Mapa</h3>
-                  <p>Usaremos herramientas como la Matriz de Priorización para que tu elección de canales sea matemática, no intuitiva.</p>
+                  <h3><i class="fas fa-map-signs"></i> B: El Mapa</h3>
+                  <p>Elección matemática de canales.</p>
                 </div>
                 <div class="column">
-                  <h3><i class="fas fa-gas-pump"></i> Sesión C: El Combustible</h3>
-                  <p>Sales con tu Flujo de Caja calculado y dominando el método 4+1 para tomar decisiones de inversión.</p>
+                  <h3><i class="fas fa-gas-pump"></i> C: El Combustible</h3>
+                  <p>Dominio del Flujo de Caja.</p>
                 </div>
               </div>`
   },
@@ -191,9 +184,9 @@ const slideContent = [
     layout: 'layout-default slide-19-custom',
     title: 'Tu Inversión Estratégica',
     content: `<ul class="infographic-list" style="max-width: 60%;">
-                <li><i class="fas fa-rocket"></i> <div><strong>Resultados inmediatos</strong><br>Herramientas y planes de acción efectivos.</div></li>
-                <li><i class="fas fa-chart-line"></i> <div><strong>Aumento de ingresos, sin adivinanzas</strong><br>Casos de estudio y tácticas probadas.</div></li>
-                <li><i class="fas fa-hands-helping"></i> <div><strong>Soporte personalizado</strong><br>Sesión privada de 30 min con nuestros expertos.</div></li>
+                <li><i class="fas fa-rocket"></i> <div><strong>Resultados inmediatos</strong></div></li>
+                <li><i class="fas fa-chart-line"></i> <div><strong>Aumento de ingresos</strong></div></li>
+                <li><i class="fas fa-hands-helping"></i> <div><strong>Soporte personalizado</strong></div></li>
               </ul>
               <h2 style="margin-top: 40px;">Inversión Única: $5000</h2>`
   },
@@ -202,10 +195,8 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'Tu Decisión',
-    content: `<h3>Puedes seguir adivinando, o puedes construir un sistema que te dará el control.</h3>
-              <p style="margin-top: 30px; font-size: 1.5em;">El enlace está en la pantalla:</p>
-              <p style="font-size: 1.8em; font-weight: bold; color: var(--accent-color);">www.dominatunegocio.com</p>`,
-    // RECOMENDACIÓN: Usa una imagen de una bifurcación en el camino.
+    content: `<h3>Adivinar vs. <strong>Construir un Sistema</strong>.</h3>
+              <p style="font-size: 1.8em; font-weight: bold; color: var(--accent-color); margin-top: 40px;">www.dominatunegocio.com</p>`,
     image: 'https://placehold.co/1000x400/EEEEEE/000000?text=Bifurcación'
   },
 
@@ -213,7 +204,7 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: '¿Preguntas?',
-    content: `<h2>Q&A</h2>
-              <p style="margin-top: 50px;">Mientras deciden si unirse a la construcción, abro el micrófono.</p>`
+    content: `<h2>Q&A</h2>`
   }
 ];
+
